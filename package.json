@@ -1,0 +1,31 @@
+{
+  "name": "gulp-sass-docs",
+  "version": "0.0.1",
+  "description": "Markdown documentation from Sass files.",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tomgenoni/gulp-sass-docs"
+  },
+  "author": "Tom Genoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomgenoni/gulp-sass-docs/issues"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "homepage": "https://github.com/tomgenoni/zero-static-html-engine",
+  "dependencies": {
+    "browser-sync": "^2.2.1",
+    "del": "^1.1.1",
+    "gulp": "^3.8.10",
+    "gulp-compass": "^2.0.3",
+    "gulp-concat": "^2.5.2",
+    "gulp-foreach": "^0.1.0",
+    "gulp-front-matter": "^1.2.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-swig": "^0.7.4",
+    "path": "^0.11.14"
+  }
+}
