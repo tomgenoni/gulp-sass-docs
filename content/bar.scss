@@ -1,10 +1,12 @@
 // ---
 // title: Oranges
-// description: This is a file that does this and job.
+// description: This is a file that does this and such.
 // ---
 
 // <div class="example">
-//     <div>examples here</div>
+//     <div class="outer">
+//        <div class="inner">inner</div>
+//     </div>
 // </div>
 
 // Lorem
@@ -14,3 +16,13 @@
 .bar {
   bar: foo;
 }
+
+.bar {
+  bar: foo;
+}
+
+
+.bar {
+  bar: foo;
+}
+

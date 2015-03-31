@@ -2,10 +2,12 @@ $(document).ready(function(){
 
   $(".example").each(function(){
     var html = $(this).html();
-    $(this).after("<pre>"+html+"</pre>");
+    // Remove blank new line and spaces before example code.
+    var html = html.replace(/^(\s*\n|\s{2})/gim, "")
+    $(this).after("<pre class='example-code'><code>"+html+"</code></pre>");
   })
 
-  $(".example + pre").each(function(){
+  $(".example + .example-code code").each(function(){
     $(this).text( $(this).html() );
   })
 

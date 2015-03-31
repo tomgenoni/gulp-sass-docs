@@ -1,3 +1,52 @@
+@import 'partials/fonts';
+
 body {
   background: #fff;
+  font: 14px/1.7 Proxima;
+}
+
+#wrap {
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+}
+
+#toc {
+  width: 250px;
+}
+
+#toc > ul {
+  position: fixed;
+}
+
+#content {
+  flex: 1;
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+}
+
+.entry {
+  margin-bottom: 40px;
+}
+
+.example {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.example-code {
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  font-size: 13px;
 }

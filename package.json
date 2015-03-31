@@ -25,6 +25,7 @@
     "gulp-concat": "^2.5.2",
     "gulp-foreach": "^0.1.0",
     "gulp-front-matter": "^1.2.2",
+    "gulp-notify": "^2.2.0",
     "gulp-rename": "^1.2.0",
     "gulp-swig": "^0.7.4",
     "path": "^0.11.14"

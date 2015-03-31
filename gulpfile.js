@@ -2,6 +2,7 @@ var gulp        = require('gulp')
     del         = require('del'),
     path        = require('path'),
     md          = require('gulp-remarkable'),
+    notify      = require('gulp-notify'),
     compass     = require('gulp-compass'),
     foreach     = require('gulp-foreach'),
     rename      = require('gulp-rename'),
