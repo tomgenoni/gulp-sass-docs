@@ -1,15 +1,64 @@
 // ---
-// title: Oranges
+// title: Grids
 // description: This is a file that does this and such.
 // ---
 
-// <div class="example">
-//     <div class="outer">
-//        <div class="inner">inner</div>
+
+//     .foo {
+//       @include this();
+//     }
+
+// <div class="example html">
+//    <ul class="lego-matrix lego-matrix--1-2">
+//      <li><div class="doc-placeholder">matrix 1</div></li>
+//      <li><div class="doc-placeholder">matrix 2</div></li>
+//      <li><div class="doc-placeholder">matrix 3</div></li>
+//      <li><div class="doc-placeholder">matrix 4</div></li>
+//      <li><div class="doc-placeholder">matrix 5</div></li>
+//      <li><div class="doc-placeholder">matrix 6</div></li>
+//      <li><div class="doc-placeholder">matrix 7</div></li>
+//    </ul>
+// </div>
+
+// <div class="example html">
+//   <div class="lego-grid">
+//     <div class="lego-grid__cell width-3-5">
+//       <div class="doc-placeholder">3/5</div>
 //     </div>
+//     <div class="lego-grid__cell width-1-5">
+//       <div class="doc-placeholder">1/5</div>
+//     </div>
+//     <div class="lego-grid__cell width-1-5">
+//       <div class="doc-placeholder">1/5</div>
+//     </div>
+//   </div>
 // </div>
 
 // Lorem
+
+// <div class="example html">
+//   <div class="lego-attention text--center push-double--bottom">
+//      This is a note.
+//   </div>
+//   <div class="lego-attention">
+//     <p>This is a longer note adipisicing elit. Recusandae ipsum tenetur est quisquam beatae aliquam facere molestiae reiciendis aperiam molestias consequuntur voluptatum corporis voluptas laudantium dolor, nam quam laboriosam harum.</p>
+//   </div>
+// </div>
+
+// <div class="example html">
+//    <ul class="lego-block-list lego-block-list--all">
+//      <li>Foo</li>
+//      <li>Bar</li>
+//      <li>Baz</li>
+//      <li><a href="#" class="lego-block-list__link">Foo Bar Baz</a></li>
+//    </ul>
+// </div>
+
+
+//     .foo {
+//       bar: zoo;
+//     }
+
 
 // [---]
 

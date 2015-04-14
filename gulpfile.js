@@ -38,7 +38,10 @@ gulp.task('build', function () {
           property: 'data'
         }))
         .pipe(md({
-          preset: 'commonmark'
+          preset: 'full',
+          remarkableOptions: {
+            html: true
+          }
         }))
         .pipe(wrap({
           src: 'includes/entry.html'
