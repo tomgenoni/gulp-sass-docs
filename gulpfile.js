@@ -11,9 +11,18 @@ var gulp        = require('gulp')
     toc         = require('gulp-toc'),
     replace     = require('gulp-replace'),
     changed     = require('gulp-changed'),
+    swig        = require('gulp-swig'),
     frontMatter = require('gulp-front-matter'),
     concat      = require('gulp-concat'),
-    wrap        = require('gulp-wrap');
+    wrap        = require('gulp-wrap'),
+    opts        = {
+      setup: function(swig) {
+        swig.setDefaults({
+          cache: false,
+          loader: swig.loaders.fs(__dirname + '/includes/')
+        });
+      }
+};
 
 
 function swallowError(error) {
@@ -51,6 +60,7 @@ gulp.task('build', function () {
     }))
     .pipe(rename("index.html"))
     .pipe(wrap({ src: './templates/default.html'}))
+    .pipe(swig(opts))
     .pipe(toc({
       // Overrides the default method of building IDs in the content.
       TOC: '<div id="toc"><%= toc %></div>',

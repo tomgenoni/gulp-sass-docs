@@ -1,0 +1,10 @@
+.doc-accordion-example {
+  height: 300px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  .accordion {
+    border: 1px solid #ddd;
+  }
+}

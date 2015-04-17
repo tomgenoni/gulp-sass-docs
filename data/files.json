@@ -1,5 +1,22 @@
 [
-  "/Library/WebServer/Documents/gulp-sass-docs/content/_buttons.scss",
-  "/Library/WebServer/Documents/gulp-sass-docs/content/bar.scss",
-  "/Library/WebServer/Documents/gulp-sass-docs/content/foo.scss"
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_accordion.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_attention.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_block-list.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_buttons.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_button-group.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_disclose.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_dropdown.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_help.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_matrix.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_media.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_nav.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_pagination.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_popover.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_poptip.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_progress.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_rules.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_spinner.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_stats.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_steps.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_tabs.scss"
 ]

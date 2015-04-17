@@ -1,6 +1,3 @@
-@import 'partials/fonts';
-@import 'partials/highlight';
-
 body {
   background: #fff;
   font: 14px/1.7 Proxima;
@@ -20,6 +17,7 @@ body {
 
 #toc > ul {
   position: fixed;
+  top: 50px;
 }
 
 #content {
@@ -33,20 +31,9 @@ body {
   h3 {
     margin-top: 30px;
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 20px;
     color: #333;
   }
-}
-
-.entry {
-  margin-bottom: 40px;
-}
-
-.example {
-  padding: 20px;
-  border-radius: 3px;
-  margin-bottom: 20px;
-  box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.1), 0 1px 2px rgba(63, 63, 68, 0.1);
 }
 
 pre {
@@ -59,6 +46,37 @@ pre {
 
 code {
   font-family: Source Code Pro;
+  font-size: 12px;
+}
+
+pre > code {
+  font-size: 11px;
+}
+
+.entry {
+  margin-bottom: 50px;
+
+  > ul {
+    list-style: disc;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+}
+
+.description {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.example {
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.1), 0 1px 2px rgba(63, 63, 68, 0.1);
+}
+
+.example  + .example-code {
+  margin-bottom: 40px;;
 }
 
 .doc-placeholder {
