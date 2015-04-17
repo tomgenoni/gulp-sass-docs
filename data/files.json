@@ -1,4 +1,6 @@
 [
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/elements/_grid.scss",
+  "/Library/WebServer/Documents/lego/src/scss/core/partials/base/_tables.scss",
   "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_accordion.scss",
   "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_attention.scss",
   "/Library/WebServer/Documents/lego/src/scss/core/partials/objects/_block-list.scss",

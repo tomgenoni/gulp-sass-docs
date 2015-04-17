@@ -4,6 +4,12 @@ body {
   color: #7D7D8E;
 }
 
+header {
+  height: 100px;
+  background: #03415c;
+  margin-bottom: 50px;
+}
+
 #wrap {
   max-width: 1000px;
   display: flex;
@@ -11,13 +17,23 @@ body {
   padding: 0 20px;
 }
 
-#toc {
+#toc-wrap {
   width: 250px;
 }
 
-#toc > ul {
-  position: fixed;
-  top: 50px;
+#toc {
+  // position: fixed;
+  // top: 360px;
+
+  h4{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  ul {
+    margin-bottom: 30px;
+  }
 }
 
 #content {
@@ -56,6 +72,16 @@ pre > code {
 .entry {
   margin-bottom: 50px;
 
+  &__title {
+    font-size: 32px;
+    color: #333;
+  }
+
+  &__description {
+    font-weight: 300;
+    font-size: 16px;
+  }
+
   > ul {
     list-style: disc;
     margin-bottom: 10px;
@@ -63,10 +89,6 @@ pre > code {
   }
 }
 
-.description {
-  font-weight: 300;
-  font-size: 16px;
-}
 
 .example {
   padding: 20px;

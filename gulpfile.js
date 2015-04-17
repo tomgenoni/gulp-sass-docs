@@ -63,7 +63,7 @@ gulp.task('build', function () {
     .pipe(swig(opts))
     .pipe(toc({
       // Overrides the default method of building IDs in the content.
-      TOC: '<div id="toc"><%= toc %></div>',
+      TOC: '<%= toc %>',
       header: '<h<%= level %> id="<%= anchor %>"><%= header %></h<%= level %>>',
       tocMax: 2,
       anchorMax: 2
